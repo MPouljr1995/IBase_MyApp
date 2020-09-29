@@ -1,0 +1,42 @@
+.bottomAppBar{
+  top: auto;
+  margin-top:100px;
+  bottom: 0px;
+  background-color:#03a9f4;
+  color:white;
+  height: 265px;
+}
+
+.footerItem{
+  color:white;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.footerLink{
+  color:white;
+  text-decoration: none;
+}
+
+.footerHeading{
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) {
+  .footerDiv{
+    width:750px;
+  }
+
+}
+@media only screen and (max-width: 768px) {
+  .bottomAppBar{
+    display: none;
+  }
+
+}
+@media only screen and (min-width: 1000px) {
+  .footerDiv{
+    width:960px;
+  }
+
+}

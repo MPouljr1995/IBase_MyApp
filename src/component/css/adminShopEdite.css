@@ -1,0 +1,81 @@
+#adminShopEditeMainDiv{
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+}
+#AdminEditeShopLogoCard{
+  height: 200px;
+  margin-top: 20px;
+}
+
+
+#editeLogoImgDiv1{
+  float: left;
+  width: 200px;
+  height: 200px;
+  border:1px solid black;
+
+}
+.editeShopLogoFileInput1{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  opacity: 0;
+  cursor: pointer;
+}
+.editeLogoImg{
+  max-width: 200px;
+  max-height: 200px;
+  z-index: 3;
+}
+#editeShopNameDiv{
+  float: left;
+  margin-left: 50px;
+  height: 200px;
+  min-width:500px;
+  z-index: 3;
+}
+#lastNameIp{
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+
+}
+#formUpdateBtn{
+  float: right;
+  margin-right: 30px;
+  margin-top: 150px;
+  background-color: #03a9f4;
+  color: white;
+  font-weight: bold;
+  z-index: 1;
+}
+#ediShopCoverDiv{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  height: 0px;
+  background-color: black;
+  opacity: 0.9;
+}
+#shopEditAlertMsgCoverDiv{
+  width: 100%;
+  height:100%;
+  position: fixed;
+  top:0px;
+  left: 0px;
+  background-color: black;
+  opacity: 0.9;
+  z-index: 2;
+}
+#shopEditAlertMsgCoverDivPaper{
+  position: relative;
+  width:500px;
+  height:150px;
+  background-color:white;
+  margin:auto;
+  top:200px;
+  z-index: 3;
+}
